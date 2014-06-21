@@ -1,3 +1,5 @@
+(require 'flycheck)
+
 (defun get-value-from-comments (marker-string line-limit)
   "gets a string from the header comments in the current buffer.
 TAKEN FROM CSHARP MODE
